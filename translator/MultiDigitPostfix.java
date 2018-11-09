@@ -24,23 +24,23 @@ class MultiDigitParser{
         while (true){
             if ((char)singledigit == '+'){
                 readDigit();
-                System.out.print('+');
+                System.out.print("+ ");
             }
             else if ((char)singledigit == '-'){
                 readDigit();
-                System.out.print('-');
+                System.out.print("- ");
             }
             else if ((char)singledigit == '*'){
                 readDigit();
-                System.out.print('*');
+                System.out.print("* ");
             }
             else if ((char)singledigit == '/'){
                 readDigit();
-                System.out.print('/');
+                System.out.print("/ ");
             }
             else if ((char)singledigit == '%'){
                 readDigit();
-                System.out.print('%');
+                System.out.print("% ");
             }
             else return;
         }
@@ -56,7 +56,7 @@ class MultiDigitParser{
                 digit += (char) singledigit;
                 singledigit = System.in.read();
             }
-            System.out.print(digit);
+            System.out.print(digit+" ");
             while (singledigit == ' '){
                 singledigit = System.in.read();
             }
