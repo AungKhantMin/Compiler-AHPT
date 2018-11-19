@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/aungkhantmin/Documents/Compiler Theory/Compiler-AHPT/translator/MultiDigitPostfix.cpp
+string
+-
+stdio.h
+-
+iostream
+-
+
