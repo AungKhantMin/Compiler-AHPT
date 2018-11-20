@@ -6,3 +6,5 @@ Compiler-AHPT.*
 *.iml
 *.class
 CMakeLists.txt
+*.cmake
+cmake-build-debug/CMakeCache.txt
