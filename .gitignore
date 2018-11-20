@@ -4,3 +4,5 @@ Compiler-AHPT.*
 *.iws
 *.ipr
 *.iml
+*.class
+out/production/Compiler-AHPT/translator/MultiDigitParser.class
