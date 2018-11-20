@@ -3,7 +3,6 @@ import java.io.*;
 
 class Parser{
     static int look_ahead;
-
     public Parser() throws IOException{
         look_ahead = System.in.read();
     }
