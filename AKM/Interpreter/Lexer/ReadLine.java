@@ -1,4 +1,4 @@
-package AKM.Interpreter;
+package AKM.Interpreter.Lexer;
 
 import java.util.Scanner;
 
