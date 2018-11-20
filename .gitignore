@@ -5,3 +5,4 @@ Compiler-AHPT.*
 *.ipr
 *.iml
 *.class
+CMakeLists.txt
