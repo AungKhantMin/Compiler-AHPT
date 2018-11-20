@@ -1,4 +1,4 @@
-package tokenGenerator;
+package AKM.tokenGenerator;
 
 public class Token {
     public final int tag;

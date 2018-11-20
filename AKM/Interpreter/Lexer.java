@@ -1,4 +1,4 @@
-package Interpreter;
+package AKM.Interpreter;
 
 import java.util.Hashtable;
 
@@ -113,6 +113,9 @@ public class Lexer {
 
             if (keyWords.get(token) != null){
                 tokenTable.put(token,keyWords.get(token));
+            }
+            else if(token == "\n" || token == " " || token == ""){
+                // do nothing
             }
             else {
                 tokenTable.put(token,"Identifier");

@@ -1,0 +1,6 @@
+cmake-build-debug/*
+.vscode/*
+Compiler-AHPT.*
+*.iws
+*.ipr
+*.iml
