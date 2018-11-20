@@ -1,4 +1,4 @@
-package tokenGenerator;
+package AKM.tokenGenerator;
 
 public class Word extends Token {
     public String lexeme = "";

@@ -1,4 +1,4 @@
-package tokenGenerator;
+package AKM.tokenGenerator;
 
 import java.io.IOException;
 import java.util.Hashtable;

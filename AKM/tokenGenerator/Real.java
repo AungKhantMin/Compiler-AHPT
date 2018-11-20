@@ -1,4 +1,4 @@
-package tokenGenerator;
+package AKM.tokenGenerator;
 
 public class Real extends Token {
     public final float value;

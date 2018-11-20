@@ -1,4 +1,4 @@
-package translator;
+package AKM.translator;
 
 import java.io.*;
 

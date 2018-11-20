@@ -1,4 +1,4 @@
-package Interpreter;
+package AKM.Interpreter;
 
 public class Interpreter {
     public static void main(String args[]){
