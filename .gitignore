@@ -8,3 +8,4 @@ out/*
 CMakeLists.txt
 *.cmake
 cmake-build-debug/CMakeCache.txt
+.DS_Store
